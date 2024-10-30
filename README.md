@@ -296,10 +296,14 @@ redis-server
 - **이성훈** (201924532)
 
   - 역할: 퍼스널컬러 측정 개발, 추천 시스템 개발, 백엔드 및 프론트엔드 개발
+  - e-mail: p.plue1881@gmail.com
+  - github: https://github.com/NextrPlue
 
 - **김태훈** (201924451)
 
   - 역할: 얼굴형 측정 개발, 체형 측정 개발, 추천 시스템 개발, 백엔드 개발
+  - e-mail: bigteach0508@pusan.ac.kr
+  - github: https://github.com/minchoCoin
 
 ---
 
