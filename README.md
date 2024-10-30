@@ -145,34 +145,6 @@
    pip install -r requirements.txt
    ```
 
-   `requirements.txt` 예시:
-
-   ```
-   Flask
-   Flask-Session
-   redis
-   rq
-   numpy
-   pandas
-   opencv-python
-   mediapipe
-   dlib
-   rembg
-   scikit-learn
-   joblib
-   tensorflow
-   ```
-
-4. **머신러닝 모델 파일 준비**
-
-   필요한 모델 파일을 `models/model_files/` 디렉토리에 저장합니다.
-
-   - `faceshape_efficientnetb4_crop.tflite`
-   - `haarcascade_frontalface_default.xml`
-   - `shape_predictor_68_face_landmarks.dat`
-   - `kmeans_model_L2.pkl`
-   - 기타 필요한 모델 파일
-
 ### 3.2. Redis 서버 실행
 
 Redis가 설치되어 있지 않은 경우 [Redis 공식 사이트](https://redis.io/download)에서 설치합니다.
@@ -311,21 +283,23 @@ redis-server
 
    - 필요한 경우 "더 보기" 버튼을 클릭하여 더 많은 추천 아이템을 볼 수 있습니다.
 
+7. **평점 매기기**
+
+   - 추천된 패션 사진을 클릭하여 평점을 매길 수 있습니다.
+
 ### 4.2. 시연 영상
 
-[시연 영상 링크](#) <!-- 실제 시연 영상이 있을 경우 링크를 삽입하세요 -->
+[![시연 영상](http://img.youtube.com/vi/bAQ_bLVpX28/0.jpg)](https://youtu.be/bAQ_bLVpX28)
 
 ## 5. 팀 소개
 
 - **이성훈** (201924532)
 
-  - 역할: 백엔드 개발, 머신러닝 모델 통합, 데이터 전처리
-  - 담당 업무: 이미지 처리 로직 구현, 머신러닝 모델 개발 및 통합, 추천 시스템 개발
+  - 역할: 퍼스널컬러 측정 개발, 추천 시스템 개발, 백엔드 및 프론트엔드 개발
 
 - **김태훈** (201924451)
 
-  - 역할: 프론트엔드 개발, 사용자 인터페이스 설계
-  - 담당 업무: 웹 페이지 제작, 사용자 경험 개선, API 통신 구현
+  - 역할: 얼굴형 측정 개발, 체형 측정 개발, 추천 시스템 개발, 백엔드 개발
 
 ---
 
@@ -337,3 +311,4 @@ redis-server
 4. “2023 Consumption Trend Series - 03 Personalized Services,” MezzoMedia [Online], 
 Available: https://www.mezzomedia.co.kr/data/insight_m_file/insight_m_file_1605.pdf (downloaded 2024, May. 19)
 5. So-young Lee, “Personal Color Tone Type and Categorization of Harmonious Colors According to Skin Color,” M.S. thesis, Graduate School of Cultural and Information Policy, Hongik Univ., Seoul, South Korea, 2019. (in Korean)
+6. Trotter, Cameron, et al. "Human body shape classification based on a single image." arXiv preprint arXiv:2305.18480 (2023)
